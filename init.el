@@ -189,4 +189,8 @@
 ;; "                                                      (live-welcome-message) "
 
 ")))
+
+;; My own settings
+;(load-file (concat live-root-dir "auto-complete-conf.el"))
+(live-load-config-file (concat live-root-dir "auto-complete-conf.el"))
 )
