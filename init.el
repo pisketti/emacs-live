@@ -189,8 +189,4 @@
 ;; "                                                      (live-welcome-message) "
 
 ")))
-
-;; Extra settings.
-;; Key bindings for auto-complete by bleadof
-(live-load-config-file (concat live-root-dir "auto-complete-conf.el"))
 )
