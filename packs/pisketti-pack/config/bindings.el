@@ -2,13 +2,15 @@
 (define-key global-map (kbd "C-+") 'text-scale-increase)
 (define-key global-map (kbd "C--") 'text-scale-decrease)
 
-;; Extra key binding for auto complete
-(require 'auto-complete)
-(require 'auto-complete-config)
-(global-set-key (kbd "<C-tab>") 'ac-complete)
-
 ;; Open buffer menu in the active window
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 
 ;; Revert buffer easily
 (global-set-key (kbd "C-c r") 'revert-buffer)
+
+
+;; Accessing parens with c-m instead of alt-gr
+(global-set-key (kbd "C-M-7") "{")
+(global-set-key (kbd "C-M-0") "}")
+(global-set-key (kbd "C-M-8") "[")
+(global-set-key (kbd "C-M-9") "]")
